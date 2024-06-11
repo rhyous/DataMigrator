@@ -1,0 +1,5186 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "AdvisorsAssistantContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Rhyous.DataMigration.AdvisorsAssistant",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AAAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAAddressZip]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAAddressZipCustom]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAApplicationInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AABenchMarkReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AABenchMarkReportAccounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AABenchMarkReportInvestments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AABenchMarkReportValues]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalEvent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalEventDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalEventException]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalEventNameLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalEventNotification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalEventNotificationLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalUserAccess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACalUserEventLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeAccountTypeProductClass]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeAnnuitySurrenderPeriod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeCustodianContactInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeCustom]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeDeceased]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeEventSubtypeColor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodePaymentModeFrequency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodePolicyStatus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeReciprocal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACodeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAComDue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACustomLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AACustomLinkParameter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADebug]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationParty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationPartyAddressLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationPartyEmailLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationPartyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationPartyPhoneLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AADownloadRegistrationPhone]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAExchangeAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFileAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFileHistoryLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFileHistoryLogDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFilePolicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexlabel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexLabelWorkflow]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexName]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexNvst]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFlexWorkflow]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAForeignKey]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFormAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFormCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFormMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFormName]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAFormNvst]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAGoogleAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAHouseHold]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAHouseHoldMember]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAHouseholdMemberCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAImage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAInsuranceRelation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAKeyId]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAKeyIdProperties]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AALabel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AALanguage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AALicense]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AALicenseModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AALink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAMailingList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAMailingListMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAMarket]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAName]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANameAdvisorVault]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANameDeleted]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANameDownloadID]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANameFilter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANameProducer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANameType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANewBiz]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANoteAccountLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANoteFileLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANotePolicyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANoteTopic]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANoteTopicLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvst]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstAccountDownloadedInfo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstAccountPartnerExportLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstAccountPdcr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstAccountRelation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstCalculationFormula]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstIndex]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstIndexFamily]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstIndexPrice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstIndexSubSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstLotAndSplitLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstMarketValuation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstNav]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstNavReturn]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstNavTemp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstNewBiz]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstPosition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstProcessTransactionKeys]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstSale]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstSymbol]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstSymbolSplit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstTaxLot]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstTaxLotHoldingDateLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvstValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvSum]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvTrans]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvTransBasisAdjustmentLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvTransBlotter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvTransFlow]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvTransPositionOverride]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AANvTransType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAOffice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAOutlookEntryCalendar]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAOutlookEntryEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAOutlookEntryName]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAOutlookStore]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPerspective]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPerspectiveCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPerspectiveTransCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPhone]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyBenefitCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyBenefitSeries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommAdjustment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSetBlackout]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSetFixedAmount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSetFixedAmountYear]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSetLevel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSetNonCommAmount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTableSetRate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTransactionCoverageLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTransactionDue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTransactionDueRiderLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTransactionPaid]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCommTransactionRemainder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCoveragePosition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyCoverageRelation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyModalPremiumCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyModalPremiumRider]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyNewBiz]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyPdcr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyPremiumDue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyRelation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicyRider]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicySeries]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAPolicySur]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProcessLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProcessLogDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProcessValues]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProcessValuesAccounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProducer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProducerGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProducerGroupLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAProducerReference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAQueryCondition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAQueryConditionItemSource]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAQueryConditionJoin]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAQuerySavedCondition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAQuerySavedConditionSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAQuerySavedConditionSetUserLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportCustomTitles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportFavorite]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportFields]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportFootNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportPreference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAReportProgram]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AASystem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AASystemPreference]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AATempData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AATempKeys1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AATempKeys2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AATempKeys3]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AATempKeys4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AATempKeys5]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserDashboardWidget]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserGroupLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserMemo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserMessageNotificationLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserMessageView]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserProducer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserRecentName]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserRoleTask]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserRoleType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserTaskOverRide]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserTaskType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserTaskTypeGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserTaskTypeSplit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserView]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserViewAccess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserViewOffice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAUserViewPdcr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAWeb]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAWorkFlow]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAWorkFlowEvent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAWorkFlowEventMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAWorkFlowEventTemplate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AAWorkFlowMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfAddressPartyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfAddressPolicyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfAddressRegistrationLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfBalance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfBatch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfCodeMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfCoverage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfCoveragePage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfEmailPartyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfEmailPolicyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfEmailRegistrationLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfParty]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPartyCoverageLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPartyPolicyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPartyRegistrationLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPartyRiderLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPhone]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPhonePartyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPhonePolicyLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPhoneRegistrationLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPolicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPolicyNewBiz]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPolicyPosition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPosition]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPositionAccountSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPositionInvestmentSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPositionPositionSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPositionPriceSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPositionReconcileSet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPositionSecuritySet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfPrice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfProcessFile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfRegistration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfRider]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfSecurity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dlfTransactionMap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DSTCusipChange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DSTSecurity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FCHSecurity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InfinetLink]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InfinetLinkExtension]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InfinetLinkNewAA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[msSQLed_StatementLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRSFund]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRSSecurityMatrix]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SWBMoneyMarkets]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[vwAANameKey000001]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwAANameKey001000]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwAppAutomationDataByName]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFBalance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFFile]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFOutOfBalance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFPolicyCoverage]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFPolicyPosition]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFPosition]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFRegistration]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDLFTransaction]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwDSTSecurity]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwExchangeAccountUser]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwExportClient]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwInsuranceCommissionTransactionSummary]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwMobileClient]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter0000000106]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter0000000107]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter09999999]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000019]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000028]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000030]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000033]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000034]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000037]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000038]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000040]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000046]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000048]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000049]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwNameFilter10000058]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwOutlookExportName]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwPlanningExport_Address]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwPlanningExport_Insured]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwPlanningExport_Investment]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwPlanningExport_NameType]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwPlanningExport_Phone]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwPlanningExport_Policy]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportAccount]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportAccountProfile]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportAccountRelatedNames]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportAddress]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportAnnuity]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportAttachForm]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportCalendarEvent]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportClient]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportClientHHTotals]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportClientHHTotalsINFORCE]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportClientNameTypes]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportCommDistribution]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportCommTransaction]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportCommTransactionComment]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportDisclosures]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportDownloadRegistration]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportEmail]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFileHistory]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFileHistoryAccount]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFileHistoryClient]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFileHistoryPolicy]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFlexFieldLabels]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFlexFieldWorkflowLabels]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportFlexFieldWorkflowValues]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportHouseholdMember]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportHouseholdOf]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportHouseholdTotals]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInsuranceNote]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInsuranceProduction]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInsuranceRelatedNames]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInsured]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestment]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestmentICE]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestmentMgmt]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestmentNewBiz]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestmentNote]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestmentSecurities]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportInvestmentTrailerComm]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportLink]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportMarket]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportNameFile]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportNameNewBiz]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportNameNote]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportPerformance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportPerformanceMP]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportPhone]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportPolicyCoverage]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportPolicyNewBiz]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportPolicyNewBizInsured]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportRider]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportRiderInsured]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportSymbol]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportTransaction]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportWeb]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportWorkFlow]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportWorkFlowEvent]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportWorkFlowMaster]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportWorkFlowMasterEvent]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwReportWorkflowTeamMember]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwViewscreenReport_Client_Insurance]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwViewscreenReport_Policy_Commissions]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[vwViewscreenReport_Policy_Commissions_Agency]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[sp_AACalEventDataGetByCriteria]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AACalEventDataGetByCriteriaSubCalls]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AACalEventDataGetByCriteriaWithName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AACalEventPopulateEventTempKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ActiveDLFServiceModules]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddFileHistoryDetail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddIndexPrice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddIndexPrice2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddNameToHousehold]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddNav]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddNav2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddNavAndIndexFromTempNavTable]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddNavWithPool]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddNavWithPoolAndFile]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddOutlookEntryIDCalendarRow]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddOutlookEntryIDNameRow]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AddRemoveSecondaryProducerOnName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AllCatalogDrop]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_AnalyzeInvestmentData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_API_CalculateInvestmentValue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_API_CheckNamePrimaries]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_API_GetInvestmentData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveAttachment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmail6]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmail7]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmail7CommitUpdates]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmail7ToInputNameID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmailDictation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmailMobileAssist]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ArchiveEmailMyCopyTalk]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BackupAllDatabases]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BenchMarkReportDatasetAccountLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BenchMarkReportDatasetNvstAndAcctLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BenchMarkReportDatasetNvstLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BenchMarkReportDatasetTopLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BenchMarkReportDatasetTopValuation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BenchMarkReportRetrieval]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_BlankZeroValueRecords]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateAndUpdateMarketIndexByDateRange]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateAndUpdateMarketIndexReturns]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateCoverageNetBenefit]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateCoverageNetCashValue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateCoverageNetCashValueInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateMarketIndexReturnInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculatePolicyNetCashValue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculatePolicyNetCashValueInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculatePremiumDueDates]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculatePremiumDueDatesWithBlackouts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateSecurityReturn]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalculateSecurityReturnInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventGetActiveEventList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventGetActiveEventNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventLogDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventPreLogDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventsGetEarlierEvents]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventsRollover]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CalEventsRolloverByWorkflow]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CAMImportKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CAMRetrieveInfoForCase]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CAMSetupEmployer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckAACALEVENTZeroRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckCalendarEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckCalendarEventCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckCLIMARKUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckLinkReciprocal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckLinkReciprocal2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckMessageAndEventCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckNameFax]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckNamePrimaryAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckNamePrimaryEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckNamePrimaryPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckNamePrimaryWebsite]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CheckZipCode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CombineAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CombineAccountCombineRelations]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CombineAccountProducerInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForCoverage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForFixedAmountAgencyLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForFixedAmountManagerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForFixedAmountOneLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForFixedAmountProducerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForParticipantAgencyLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForParticipantManagerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForParticipantOneLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForParticipantProducerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForPremiumAgencyLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForPremiumManagerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForPremiumOneLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForPremiumOneLevelOneType]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForPremiumProducerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForTrailerAgencyLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForTrailerManagerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForTrailerOneLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcForTrailerProducerLevel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcNetDue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcTransactionTotals]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommCalcTransactionTotalsOutput]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommGetAdvancedFixedAmount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CommGetAdvancedPremium]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ConversionRefactorGNMA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CopyAddressToHousehold]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CopyNameTypeToHousehold]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CopyPhoneToHousehold]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CopySecuityPrices]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CountCodeUsage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CountProducerGroupUsage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CountProducerReferences]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CreateLetterLogFromTempData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CreateNameFilter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CreatePersonalContactCalendarEventFromTempData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CreateSSOToken]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_CreateSSOTokenToName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseGetStatistics]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseReindexAllTables]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseReindexDLFTables]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseReindexOneTable]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseShrink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseTruncateTransactionLog]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseUpgradeInit]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DatabaseUpgradeReset]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DBUGetTemplateBackups]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeceasedCodeGet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeceasedCodeSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteCalendarEventByOutlookEntryIDAndStoreKeyIDAndCalendarID_2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteCalendarEventByOutlookEntryIDAndStoreKeyIDAndCalendarID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteCalendarEventByOutlookEntryIDAndStoreKeyIDAndCalendarIDAndGuIDs_2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteCalendarEventByOutlookEntryIDAndStoreKeyIDAndCalendarIDAndGuIDs]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteCalEventsByUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteNameFilter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteOldPolicyPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteProducerReferencesByProducer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DeleteWorkFlow]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAccountAddToName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAccountAddToPlaceholder]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAccountUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAccountUpdateFromBulkProcess]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAccountUpdateSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAddCoverage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAddDownloadInfoName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAdditionsByFileQuery]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAddName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAddNewSecuritiesBySets]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFALBPrecheckPositionPrices]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAlbReplicationPreCheckInvestors]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAppendDLFFile]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFAppendDLFFile2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfAutoAddSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBalanceCusipsAndSymbols]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionAccountPreparation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionAddAccounts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionAddNvst]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionAddPosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionAddPrice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionCodeKeyChecks]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionNvstPreparation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionPositionPreparation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionPricePreparation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileAdd]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileCheckForReversals]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileCountOutOfBalance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileGetPrices]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcilePreparation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileSummPosShares]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileSummTransShares]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionReconcileValidateDates]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionSecurityPreparation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfBulkPositionStatistics]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFBulkPositionUpdatePosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfBulkPositionUpdateResults]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFCashFlowRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfCheckCodeKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfCleanOutOrphanedDLFRecords]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFCleanUpOldFiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFCoverageUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLfCreateZeoBalanceDownloadPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFCreateZeroBalanceCashPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFDeleteAddressesByProcessKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfDeleteEmailByProcessKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFDeletePartyByProcessKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfDeletePhonesByProcessKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFDeleteRidersByProcessKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFDSTPrecheck]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfDZLUpdateSecurityNames]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFEndUserProcesses]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfFCHChangeInvestmentSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfFCHCheckMoneyMarketPosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfFCHCheckMoneyMarketSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfFchPrecheckMoneyMarketPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfFCHUpdateMissingPositionReps]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFFCHValidateAccountMoneyFunds]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFFCHValidateMoneyMarketNames]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFFIDPreProcessSplitReversals]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFFindRegistration]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFFolioFNPrecheckTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfFoundPlanInAA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfFoundSecurityInAA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfGetAccountKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFGetBaseCoverageFromPolicy]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfGetKeysToProcess]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfGetKeysToValidateAccounts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFGetLastProcessForReport]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfGetNonValidatedAccountCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfGetPlansNotFound]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfGetPolicyKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFGetPriceKeysToProcess]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFGetProcessReportStats]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfGetRepCodesNotFound]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFIBrokePrecheckTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFInitProcessKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfLinkUpTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFLocateAndCancelTransaction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFLPLPrecheckCashTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfModulePreProcessSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFNewBizUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFNLGPrecheckParties]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFNvstUpdateFromBulkProcess]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPolicyAddToName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPolicyAddToPlaceholder]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPolicyPositionUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPolicyUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfPopulateAccountKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPopulateAccountKeysByGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPopulateAccountKeysOneRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfPopulateEmptyProducerReferences]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfPopulatePlanKeysOneRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPopulatePolicyKeysOneRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPopulateProducerKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfPopulateProducerKeysOneSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPopulateSecurityKeysGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfPopulateSecurityKeysOneRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPositionAccountUpdateSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPositionInvestmentUpdateSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPositionSecurityUpdateSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPreCheckAccruedInterest]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfPreValidateProducers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPrsPopulateFund]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPrsProcessMatrix]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushBalanceGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOneBalance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOnePolicy]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOnePolicyPosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOnePosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOnePriceRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOneRegistration]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOneSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushOneTransaction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushPolicyGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushPolicyPositionGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushPositonGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushRegistrationGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushSecurityGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFPushTransactionGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFRBCPreCheckParties]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFRBCValidateDividendPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFRegistrationUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFRemoveAdditionsFromOneProcessedFile]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFReplicationPreValidateAccounts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfReplicationPrevalidateSecurities]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfResetPlanKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfResetProducerKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfResetSecurityKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFRiderUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFRJSPrecheckOptions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfSecurityNeeded]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFSecurityUpdateFromBulkProcess]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFSEIPrecheckAcccountSymbols]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfSetProcessKeysForFiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFSetupProcessToDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFSWBMoneyMarketTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFSWBSetMoneyMarkets]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFTDAPrecheckPool]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfTDAValidateINIRecords]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFTruncatePositionTempTables]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Sp_dlfUnRecognizedTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfUpdateAccountKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFUpdateDateOfRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfUpdatePlanKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfUpdatePolicyKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfUpdateRepCode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFUpdateSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfUpdateSecurityKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValdidateAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValdidateDownloadInfoAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValdidateDownloadInfoEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValdidateDownloadInfoPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValdidateEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValdidatePhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateAccountsBySetsLeadingZeros]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateAccountsInSets]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateDistributionsAndReinvestments]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateDownloadModule]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfValidateModuleSecurityMapping]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateNvst]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidatePlaceholder]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidatePosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateProcessOfPrice]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateSecuritiesBySets]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfValidateSecurityMapping]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidateUnAssignedAccounts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFValidatevwDSTSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFWedBushCheckBondFactoring]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFWedBushCheckForReinvestments]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dlfWedbushPreCheckParties]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DLFWedbushPrecheckPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfZap]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DlfZeroOutInitReconciles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_DSTSetupSecurityView]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_EmailAddressSkipArchiveSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_EmailAddressSkipArchiveStatusDifferent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeGetStoreKeyFromStoreID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSetSysPrefDefaultsAllUsers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchCalendarEvent_2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchCalendarEvent_3]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchCalendarEvent_4]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchCalendarEvent_CheckRecurException]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchCalendarEvent_SetRecur]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchCalendarEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactEmailAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactName2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactNotes]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ExchangeSynchContactWebAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_FileHistoryLogRowCountByFileHistoryLogKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_FinanceLogixExportByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_FMGSuiteEmailContacts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventEveryNDays]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventEveryNDaysInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventEveryNMonth]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventEveryNMonthInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventMonthly]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventMonthlyInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventMultiDays]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventMultiDaysInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventNotifications]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventNWeekdayNMonthly]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventNWeekdayNMonthlyInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventNWeekdayNMonthYearly]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventNWeekdayNMonthYearlyInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventOnce]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventOnceEveryYear]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventOnceEveryYearInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventsGeneric]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventWeekly]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventWeeklyEveryNWeek]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventWeeklyEveryNWeekInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventWeeklyInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventYearly]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateEventYearlyInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateInsuranceRelations]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateInvestmentSplitTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GenerateUserNotifications]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetActiveMessageCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetAllCodeForeignKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetApplicationInfoByClientID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetAppointmentDataSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetAppointmentDataSet2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetCalendarUserLookupData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetCityStateCountyCountryFromZip]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetClientReportData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetCodeKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetCostBasisAverageForNvst]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetCostBasisLotAndGainsForNvst]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetDataToProcessByModule]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetDaysFromMask]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetDistinctDayViewDates]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetDuplicateNames]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetEmailExportData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetEventSummaryByCalendar]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetEventSummaryByDept]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetEventSummaryByUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetForUserMessageNotificationLogForm]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetGreetingsAndAddresseesByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetHouseholdInfoByClientID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetInsuranceExportData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetInvestmentExportData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetLatestNoteTopicKeyByClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetLotForEditScreen]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetMessagesByUserID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNameActivity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNameExportData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNameExportDataByType]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNameLinks]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNAVOnOrAfter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNAVOnOrBefore]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNextKeyID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNextKeyIDForSetInternalByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNextKeyIDInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNextKeyIDInternalByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNoteListFormList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNoteListFormListMessages]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNoteListPaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNoteListPagingByAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNoteListPagingByPolicy]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNotesByClientForGrid]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNotesByGroupsForGrid]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNotesListViewScreenAndReport]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNoteTopicListViewScreenMessages]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNvstSalesAndTaxLot]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNvstSharesOnOrAfter]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetNvstSharesOnOrBefore]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetOutlookEntryIDCalendarRowByEntryIDAndStoreKeyID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetOutlookEntryIDCalendarRowByKeyAALinkAndStoreKeyID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetOutlookEntryIDNameRowByEntryIDAndStoreKeyID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetOutlookEntryIDNameRowByKeyAALinkAndStoreKeyID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetPartnerListForAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetPartnerListForClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetPhoneValuesFromOutlookPhoneString]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetRORNavDataSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetScheduleDataSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetSecurityTasksByUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetServerDateTimeOffsetFromUTC]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetStartAndEndNvstSharesAndNav]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetStartAndEndNvstSharesAndNavBulk]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetSummedNvstValues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetSuperViewKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetSystemInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetTaskAndCallDataSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetTaskAndCallDataSet2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetTasksAndOverrides]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetUniqueCodeAbbreviation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetUserGroupLookupData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetUsersByTask]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetUserSyncOptionsByCalendarMany]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetValuationsForRorCalculations]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetValuationsForRorCalculationsBulk]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewAccountData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewAccountDataCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientAddresses]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientDataCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientEmails]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientNameInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientNameTypes]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientPhones]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientURLs]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewClientWithNotesClientPerspectiveList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewCoverageDataCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewInvestmentData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewInvestmentDataCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewPolicyDataCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewPolicyDataCoverage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetViewPolicyDataPolicy]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetWorkflowSummaryByUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GetWorkflowSummaryByUserGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Google_FixSyncOptionsRefactor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_GuidTryParse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ImportAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ImportPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAA_InsertIntoAA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAA_ValidateGroupMembers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAA_ValidateGroups]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAA_ValidateRelations]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAAConnectNRAsFromIOLToAA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAAConnectWithTaxidsFromIOLToAA]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAAPopulateNewIOL4Contacts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinet4ToAAValidateIOLLinkKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Infinex4ToAAProducerValidation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InitializeFileHistoryLog]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InsertInitTransactionRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InsertReconcileRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InsertTaxLotRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InsertUserViewAccessRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_InsertUserViewProducerRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LinksGetForDiagramByContact]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LiquidateInvestment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LiquidateZeroValueInvestmentsForAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LogCalendarEventNotification]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LogCalendarEventNotifications]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LogUserMessageNotification]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_LogUserMessageNotificationCurrentView]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ManageUserRecentNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MergeAndDeleteCodes]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MergeAndDeleteProducers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MergeAndDeleteSymbols]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MergeOldInvestmentsIntoNewOnes]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2AddressGreetingsAndAddresseesByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2ChangePassword]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CheckUserTask]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CompleteCalendarEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateAccountNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateCoverageNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateNameNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreatePhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateSavedQuery]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2CreateWeb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteImage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteMarket]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeletePhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteQuerySet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2DeleteWeb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditAccountNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditCoverageNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditNameAdditional]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditNameFlexFields]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditNameNewBiz]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditNamePersonalIdentification]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditNoteTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2EditWeb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAccountData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAccountInvestmentList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAccountList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAccountNewBizData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAccountNewBizList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAccountRelationList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAddressData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAlbridgeApplinkData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetAnnuities]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetApplicationInfoByClientID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCalendar]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCalendarDay]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCalendarItem]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCalendarUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCityStateFromZip]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCoverageData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCoverageList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCoverageNewBizData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCoverageNewBizList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCoverageRelationList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetCoverageRiderList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetEmailData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetEventData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetFileData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetFirstName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetFlexLabels]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetFlexNameFields]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetImageData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetInvestmentData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetInvestmentTransactions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetLinkData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetMarketData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNameData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNameDataAdditional]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNameListByInitial]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNameNewBizData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNameNewBizList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNamePersonalIdentification]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNotePaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetNoteTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetPartialNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetPhoneData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetPolicyData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetPolicyList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetProducerIDList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetReadyDocLogin]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetRecentNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetReportList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetRiderData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetSavedQueryList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetSavedQuerySet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetTaskStack]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetViewableCalendars]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetViewableCalendarsForGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetViewClientDataCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2GetWebData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2InsertNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2Login]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2LoginSSO]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2MoneyGuidProByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2ProcessLogUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2ProcessMarketValuesForAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2SaveImage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2SetTaskStackOrder]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateFile]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateLoginActivity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateMarket]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateMarketFollowup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateNewBizFollowup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateNoteFollowup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateReadyDocLogin]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2UpdateSavedQuerySet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_Mobile2ValidateUserEmailAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileAddressGreetingsAndAddresseesByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCheckUserTask]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCompleteCalendarEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCreateAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCreateEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCreateLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCreateName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCreatePhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCreateWeb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileCurrentViewName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileDeleteEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileDeleteLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileDeleteMarket]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileDeleteName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileDeleteNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditMarket]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditNoteTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileEditWeb]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAccountData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAccountInvestmentList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAccountList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAccountNewBizData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAccountNewBizList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAccountRelationList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAddressData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetAlbridgeApplinkData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCalendar]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCalendarDay]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCalendarItem]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCoverageData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCoverageList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCoverageNewBizData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCoverageNewBizList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCoverageRelationList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetCoverageRiderList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetEmailData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetEventData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetHouseholdData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetInvestmentData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetLinkData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetMarketData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetNameData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetNameListByInitial]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetNotePaging]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetNoteTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetPartialNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetPhoneData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetPolicyData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetPolicyList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetPolicyRelation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetRecentNameList]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetRiderData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetViewableCalendars]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileGetWebData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileInsertNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileLogin]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileLoginSSO]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileProcessLogUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileProcessMarketValuesForAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileRolloverAllCalendar]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileUpdateLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileUpdateMarket]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileUpdateMarketFollowup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileUpdateNote]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MobileUpdateNoteFollowup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_MoneyGuideProExportByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameGetLastActivity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameGetLastActivityAndVisibilityMany]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameGetLastActivityMany]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByAll]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByCity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByFirstName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByLastName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByNameType]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByNickName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByProducer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByState]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByStreet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupBySuffix]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByTitle]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupByZip]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameLookupGetProducerKeysForView]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameVisibility]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NameVisibilityMany]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NAVDeleteByTempKeyTable]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NewCodeRow]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NoteCatalogDrop]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NoteCatalogValidate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NotesExport]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_NotesMoveTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_OutlookEntryCalendarDeleteByEntryIDAndStoreKeyID_2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_OutlookEntryCalendarDeleteByEntryIDAndStoreKeyID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_OverwriteProducerReference]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_PlanningExportByName]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_PositionRemoval]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_PrecheckValuationKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessEventExceptions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessEventExceptionsInternal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessLogAddDetail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessLogInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessLogRowCountByProcessLogKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessMarketValuesDeleteSet]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessMarketValuesForAccount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ProcessMarketValuesForInvestment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionCopy]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionPopulate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionPopulateAccounts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionPopulateCheck]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionPopulateInsurance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionPopulateNames]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_QueryConditionShare]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcileCoverageAndPolicyGroups]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcileCoverageToPosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcileCoverageToPositionByDate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcileInvestment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcileInvestmentAndCleanupPositions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcileInvestmentGroups]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcilePolicyToPosition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReconcilePolicyToPositionByDate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RecordProcessLogDeleteCommissionTransaction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RecordProcessLogDeletePolicyCoverage]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RecordServerUtilitiesAction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReCreateTaxLotForInvestment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RelocateFileAssociation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RelocateFileDetailCode]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RemoveAddressFromHousehold]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RemoveAdminTaskOverrides]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RemoveCoverageFromGroup]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RemoveDuplicateMembers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RemoveExpiredOptions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_RemovePhoneFromHousehold]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ReportPrefIncrementTimesRun]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ResetAATempDataForROR]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ResetAllUsersToViewAllNames]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ResetBasisAdjustmentTransaction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ResetTaxLotRecords]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SchlegelGroupWithSummaryReport]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ServiceDLFActiveModules]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ServiceDLFRemoveRetrievedFiles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ServiceDLFUpdateStatus]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetCoverageNetCashValue]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetHouseholdAddressPrimary]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetHouseholdNameTypePrimary]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetHouseholdPhonePrimary]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetInvestmentCashFlowToReconciles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetNameFax]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetNavForSecurity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetPagesSystemPreference]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetPrimaryAddress]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetPrimaryEmail]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetPrimaryPhone]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetPrimaryURL]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SetTodayEventNotified]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SubReportGetTaxLotForNvst]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SubReportGetTaxLotTotalsForNvst]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SyncGetLatestNameDetailsChangeDate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_SyncGetNameKeysByEmailAddresses]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_TempKeysResetAll]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_TrailerCommUpdateBeginDateOnNvstBySymbolKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_TransactionRegistrationExport]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_TransferAllCalEvents]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateAreaCodeByPrefix]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateAverageBasis]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateBasisNoLot]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateCoverageValues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateLifoFifoBasis]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateLoggedInFlag]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateLoggedInFlagValidation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateLotBasisRatio]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateNvstMarketValuation]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateNvstRorValues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateNvstRORValuesBulk]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateNvstWithTrailersBySecurityKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdatePolicyValues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateReconcileTransaction]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateSummedHHIncomeForClient]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateSummedHouseHoldIncome]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateTransactionBasisValues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateTransactionBasisValuesNoTrigger]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateTransactionProcessAndLastTransactionDates]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateTransactionSummedValues]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdateTransactionSummedValuesWithoutAI]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UpdtAccountMktVal]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UserProducerValidate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_UserTaskTypeSplit]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateAccountProducers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateBasisAdjustments]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateChangedInvestmentTransValuationKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateCodeForeignKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateCoverageFlexKeys]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateCusipChangedAssets]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateFlowToCashBalance]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateInvestmentBasis]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateLotAndSplitLinks]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateOneNvstTransactionValuationKey]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidatePeriodicValuationRecords]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidatePolicyProducers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateProducers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateSSO]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateStockSplitLink]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTableKeyIds]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxLotBasisForInvestment]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxLotBasisForSell]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxLotBasisForSplit]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxlotForNvstSplits]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxLotForSell]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxLotForSplitRecord]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTaxLotModel]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateTransactionCashFlow]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateUsernamePassword]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateUsernamePassword2]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_ValidateZeroRecords]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowAssignmentUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowCalEventCanComplete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowCalEventCanCompleteMany]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowCompleteEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowCreate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkFlowCreateStep]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowDataFixForSupportOnly]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowDataFixForSupportOnlyByDays]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkFlowGetLastActivity]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowRecalStatus]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowRecalStatusAll]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowRecalStatusMany]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkFlowTerminate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WorkflowUpdateCalEvent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WriteToFileHistoryLog]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WSAddSession]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_WSValidateSession]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[fn_AnnualizeReturn]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CalcTrailerSharePrice]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CalculateBasisPershare]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CalculateBasisRatio]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CalculatePeriodInterest]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CalculatePremiumDueDates]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CalculatePremiumDueDatesWithBlackouts]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CleanCommTransactionComment]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_CleanPhone]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DateEndOfBusinessMonth]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DateEndOfMonth]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DateGetLastDayOfMonth]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DayOfWeekName]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetDefaultBasisType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetInvestorForReport]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetNameKeyInAA]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetProducerKeyFromAA]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetRegistrationForReport]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetResultKeyID]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_DLFGetSecurityForReport]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_ExplodeDates]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_FullTextNoteCatalogName]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateFullName]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateFullNameLastFirst]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateFullNameLastFirstNoComma]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateFullNameWithNick]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateFullNameWithPrefixAndSuffix]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateFullPhone]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GenerateNameID]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetActualAge]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetAgencyCommAmount]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetCalEventNotificationLogTypeDescription]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetCashBalanceSecurityKey]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetCoverageYear]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDateEndFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDateFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDaylightSavingsTimeEnd]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDaylightSavingsTimeStart]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDecimalLength]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDomainFromEmail]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetDSTAdjustedDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetEventType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetFileExtension]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetIntMonthDayFromDateTime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetLeftAlphaNumeric]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetModalPremiumByDate]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetModalPremiumByYear]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetMonthDayFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetMonthDaySortFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetMonthYearFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetNearestAge]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetNextTrailerDateByFrequency]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetNoonDateFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetOutlookPhoneStringFromPhoneValues]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetRecordCreationSourceCodeKeyID]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetRoundedDateEndFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetRoundedDateFromDatetime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetTimeStringFromDateTime]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetTrailerCommPeriodCount]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetUserMessageNotificationLogTypeDescription]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_GetWithNamesByEvent]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_HumanReadableDateDiff]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOL_To_AA_CharAsMoney]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOL_To_AA_LinkType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOL_To_AA_MarritalStatus]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOL_To_AA_NameType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOL_To_AA_TaxBracket]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOLAddressTypeToAAAddressLocation]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOLContactTypeToAAClientType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IOLPhoneTypeToAAAphone]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_IsShortTerm]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_JustDigit]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_JustLetterOrDigit]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_MaskAccountNumber]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_MobileGenerateFullPhone]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_MobileGetRelationshipOrder]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_SetNotificationType]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_Split]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_SplitMax]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_StripTaxID]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_SummSharesForPosition]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_ValuationNeedsValidation]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_viewcl]",
+         "ObjectType": 2
+      },
+      {
+         "Name": "[dbo].[fn_WorkflowGetNextBeginDate]",
+         "ObjectType": 2
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
