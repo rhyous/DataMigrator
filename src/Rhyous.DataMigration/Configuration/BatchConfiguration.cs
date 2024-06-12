@@ -9,7 +9,7 @@ namespace Rhyous.DataMigration
 
         public BatchConfiguration(IArgs args)
         {
-            BatchSize = args.Value("BatchSize").To<int>(DefaultBatchSize);
+            BatchSize = args.Value("BatchSize")?.To<int>(DefaultBatchSize) ?? DefaultBatchSize;
         }
         public int BatchSize { get; }
     }

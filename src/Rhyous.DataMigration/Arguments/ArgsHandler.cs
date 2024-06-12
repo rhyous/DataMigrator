@@ -20,9 +20,10 @@ namespace Rhyous.DataMigration
                 {
                     Name = nameof(ISalesforceConfig.TokenRequestUrl),
                     ShortName = "T",
-                    Description = "The url to authenticate to Salesforce.",
-                    Example = "{name}=https://somedomain.tld/some/path",
-                    IsRequired = true
+                    Description = "The url to authenticate to Salesforce. Usually https://login.salesforce.com/services/oauth2/token for production and https://test.salesforce.com/services/oauth2/token for sandboxes.",
+                    Example = "{name}=https://login.salesforce.com/services/oauth2/token",
+                    DefaultValue = "https://login.salesforce.com/services/oauth2/token",
+                    IsRequired = false // Because it has a default
                 },
                 new Argument
                 {
@@ -60,15 +61,18 @@ namespace Rhyous.DataMigration
                 {
                     Name = "Account",
                     ShortName = "a",
-                    Description = "The account in the prior system.",
-                    Example = "{name}=someuser@somedomain.tld"
+                    Description = "The account in the prior system. Either Account or AccountsFile must be provided.",
+                    Example = "{name}=someuser@somedomain.tld",
+                    Group = 1
                 },
                 new Argument
                 {
                     Name = "AccountsFile",
                     ShortName = "f",
-                    Description = "The path to a file containing accounts, each account id on a new line, so accounts can be batched.",
-                    Example = "{name}=someuser@somedomain.tld"
+                    Description = "The path to a file containing accounts, each account id on a new line, so accounts can be batched. Either Account or AccountsFile must be provided.",
+                    Example = "{name}=someuser@somedomain.tld",
+                    CustomValidation = (value) => File.Exists(value),
+                    Group = 1
                 },
                 new Argument
                 {
@@ -91,10 +95,6 @@ namespace Rhyous.DataMigration
         {
             base.HandleArgs(inArgsHandler);
             Console.WriteLine("I handled the args!!!");
-            if (Args.Value("Value") == Args.Get("Value").DefaultValue)
-                Console.WriteLine("You left the default value of {0}", Args.Value("Value"));
-            else
-                Console.WriteLine("You changed the default value to {0}", Args.Value("Value"));
         }
     }
 }

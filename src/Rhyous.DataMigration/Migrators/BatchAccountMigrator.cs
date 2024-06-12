@@ -13,7 +13,7 @@ namespace Rhyous.DataMigration
             _SingleAccountMigrator = singleAccountMigrator;
             _BatchConfiguration = batchConfiguration;
         }
-        public async Task MigrateAsync(Queue<string> accounts, string jwtToken)
+        public async Task MigrateAsync(Queue<string> accounts, string jwtToken, string instanceUrl)
         {
             var tasks = new List<Task>();
             using (var semaphore = new SemaphoreSlim(_BatchConfiguration.BatchSize))
@@ -27,7 +27,7 @@ namespace Rhyous.DataMigration
                     {
                         try
                         {
-                            await _SingleAccountMigrator.MigrateAsync(account, jwtToken);
+                            await _SingleAccountMigrator.MigrateAsync(account, jwtToken, instanceUrl);
                         }
                         finally
                         {

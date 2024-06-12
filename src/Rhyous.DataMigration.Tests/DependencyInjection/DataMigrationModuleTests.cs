@@ -6,6 +6,7 @@ using Rhyous.DataMigration.DependencyInjection;
 using Rhyous.DataMigration.Interfaces;
 using Rhyous.DataMigration.Salesforce.Interfaces;
 using Rhyous.DataMigration.Serializers;
+using Rhyous.SimpleArgs;
 
 namespace Rhyous.DataMigration.Tests.DependencyInjection
 {
@@ -18,10 +19,18 @@ namespace Rhyous.DataMigration.Tests.DependencyInjection
         private Autofac.IContainer _Container;
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
+
+        [ClassInitialize]
+        public static void ClassInitialize(TestContext context) 
+        {
+            new ArgsManager<ArgsHandler>();
+        }
+
         [TestInitialize]
         public void TestInitialize()
         {
             _MockRepository = new MockRepository(MockBehavior.Strict);
+
             var builder = new ContainerBuilder();
 
             // Register items in upstream scopes
@@ -39,6 +48,24 @@ namespace Rhyous.DataMigration.Tests.DependencyInjection
         {
             var a = _Container.Resolve<IArgs>();
             var b = _Container.Resolve<IArgs>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_IFileIO_Registered_Singleton()
+        {
+            var a = _Container.Resolve<IFileIO>();
+            var b = _Container.Resolve<IFileIO>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_ILogger_Registered_Singleton()
+        {
+            var a = _Container.Resolve<ILogger>();
+            var b = _Container.Resolve<ILogger>();
             Assert.IsNotNull(a);
             Assert.AreSame(a, b);
         }

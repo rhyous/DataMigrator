@@ -1,8 +1,11 @@
 ﻿namespace Rhyous.DataMigration.Salesforce
 {
-    internal class AuthenticationResponse
+    public class AuthenticationResponse
     {
         [JsonProperty("access_token")]
-        public string AccessToken { get; set; }
+        public string? AccessToken { get; set; }
+
+        [JsonProperty("instance_url")]
+        public string? InstanceUrl { get; set; }
     }
 }

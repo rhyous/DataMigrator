@@ -17,7 +17,7 @@ namespace Rhyous.DataMigration.Salesforce
             _HttpClientFactory = httpClientFactory;
         }
 
-        public async Task<string> GetAccessTokenAsync()
+        public async Task<AuthenticationResponse> GetAccessTokenAsync()
         {
             var client = _HttpClientFactory.GetHttpClient(_SalesforceConfig.TokenRequestUrl);
             var content = new FormUrlEncodedContent([
@@ -34,7 +34,7 @@ namespace Rhyous.DataMigration.Salesforce
             var responseString = await response.Content.ReadAsStringAsync();
             var authenticationResponse = _Serializer.Deserialize<AuthenticationResponse>(responseString);
 
-            return authenticationResponse?.AccessToken ?? throw new Exception("Salesforce JWT Token failed to deserialize.");
+            return authenticationResponse ?? throw new Exception("Salesforce JWT Token failed to deserialize.");
         }
     }
 }

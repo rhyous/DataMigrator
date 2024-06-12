@@ -2,6 +2,6 @@
 {
     internal interface ISingleAccountMigrator
     {
-        Task MigrateAsync(string account, string jwtToken);
+        Task MigrateAsync(string account, string jwtToken, string instanceUrl);
     }
 }

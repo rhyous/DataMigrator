@@ -2,6 +2,6 @@
 {
     internal interface IBatchAccountMigrator
     {
-        Task MigrateAsync(Queue<string> accounts, string jwtToken);
+        Task MigrateAsync(Queue<string> accounts, string jwtToken, string instanceUrl);
     }
 }

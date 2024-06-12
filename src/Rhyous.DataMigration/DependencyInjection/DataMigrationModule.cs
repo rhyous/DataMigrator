@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Newtonsoft.Json;
 using Rhyous.DataMigration.Interfaces;
+using Rhyous.DataMigration.Logging;
 using Rhyous.DataMigration.Salesforce;
 using Rhyous.DataMigration.Salesforce.Interfaces;
 using Rhyous.DataMigration.Serializers;
@@ -13,6 +14,8 @@ namespace Rhyous.DataMigration.DependencyInjection
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<ArgsWrapper>().As<IArgs>().SingleInstance();
+            builder.RegisterType<FileWrapper>().As<IFileIO>().SingleInstance();
+            builder.RegisterType<ConsoleLogger>().As<ILogger>().SingleInstance();
 
             builder.RegisterType<CustomJsonPropertyAttributeResolver>().As<ICustomJsonPropertyAttributeResolver>().SingleInstance();
             builder.RegisterType<CustomJsonSerializerSettings>().As<JsonSerializerSettings>().SingleInstance();
@@ -21,6 +24,7 @@ namespace Rhyous.DataMigration.DependencyInjection
             builder.RegisterType<HttpClientFactory>().As<IHttpClientFactory>().SingleInstance();
             builder.RegisterType<SalesforceConfigFromArgs>().As<ISalesforceConfig>().SingleInstance();
             builder.RegisterType<SalesforceLogin>().As<ISalesforceLogin>().SingleInstance();
+            builder.RegisterType<SalesforceRecordTypeProvider>().As<ISalesforceRecordTypeProvider>().SingleInstance();
 
             builder.RegisterType<BatchConfiguration>().As<IBatchConfiguration>().SingleInstance();
             builder.RegisterType<SingleAccountMigrator>().As<ISingleAccountMigrator>().SingleInstance();

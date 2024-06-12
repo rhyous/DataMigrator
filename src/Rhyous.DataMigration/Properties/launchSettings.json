@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Rhyous.DataMigration": {
+      "commandName": "Project",
+      "commandLineArgs": "a=1234 u=user p=password s=ClientSecret c=SomeClientId T=https://test.salesforce.com/services/oauth2/token",
+      //"commandLineArgs": "F=AccountsFile.txt u=user p=password s=ClientSecret c=SomeClientId T=https://test.salesforce.com/services/oauth2/token"
+    }
+  }
+}
