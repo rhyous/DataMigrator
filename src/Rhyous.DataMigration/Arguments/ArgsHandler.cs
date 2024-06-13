@@ -59,6 +59,14 @@ namespace Rhyous.DataMigration
                 },
                 new Argument
                 {
+                    Name = "AAConnectionString",
+                    ShortName = "q",
+                    Description = "The sql connection string.",
+                    Example = "{name}=Server=.\\SQLEXPRESS;Database=your_database_name;Trusted_Connection=True;",
+                    IsRequired = true
+                },
+                new Argument
+                {
                     Name = "Account",
                     ShortName = "a",
                     Description = "The account in the prior system. Either Account or AccountsFile must be provided.",

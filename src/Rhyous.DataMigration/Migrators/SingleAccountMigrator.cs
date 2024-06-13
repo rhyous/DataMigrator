@@ -1,4 +1,7 @@
-﻿using Rhyous.DataMigration.Interfaces;
+﻿using Rhyous.DataMigration.AdvisorsAssistant.Models;
+using Rhyous.DataMigration.Interfaces;
+using Rhyous.DataMigration.Models;
+using Rhyous.DataMigration.Salesforce;
 using Rhyous.DataMigration.Salesforce.Interfaces;
 using Rhyous.StringLibrary;
 using System.Net.Http.Headers;
@@ -12,44 +15,46 @@ namespace Rhyous.DataMigration
         private readonly IHttpClientFactory _HttpClientFactory;
         private readonly ISerializer _Serializer;
         private readonly ISalesforceRecordTypeProvider _SalesforceRecordTypeProvider;
+        private readonly IDataExtractor<ExtractedData> _DataExtractor;
+        private readonly IAccountCreator _AccountCreator;
+        private readonly IAccountDetector _AccountDetector;
+        private readonly IAccountUpdater _AccountUpdater;
 
         public SingleAccountMigrator(IHttpClientFactory httpClientFactory,
                                      ISerializer serializer,
-                                     ISalesforceRecordTypeProvider salesforceRecordTypeProvider)
+                                     ISalesforceRecordTypeProvider salesforceRecordTypeProvider,
+                                     IDataExtractor<ExtractedData> dataExtractor,
+                                     IAccountCreator accountCreator,
+                                     IAccountDetector accountDetector,
+                                     IAccountUpdater accountUpdater)
         {
             _HttpClientFactory = httpClientFactory;
             _Serializer = serializer;
             _SalesforceRecordTypeProvider = salesforceRecordTypeProvider;
+            _DataExtractor = dataExtractor;
+            _AccountCreator = accountCreator;
+            _AccountDetector = accountDetector;
+            _AccountUpdater = accountUpdater;
         }
-        public async Task MigrateAsync(string account, string jwtToken, string instanceUrl)
+        public async Task MigrateAsync(string accountId, string jwtToken, string instanceUrl)
         {
             var client = _HttpClientFactory.GetHttpClient(instanceUrl);
-            var recordTypesJson = await _SalesforceRecordTypeProvider.GetRecordTypeIdsAsync(jwtToken, instanceUrl);
-            var recordTypeId = "abcdefghijgklmnop"; // Business
-            var accountData = new
-            {
-                Name = "Test Account #1",
-                Phone = "1234567890",
-                Website = "http://example.com",
-                RecordTypeId = recordTypeId
-            };
-            var json = _Serializer.Serialize(accountData);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-            var postUrl = StringConcat.WithSeparator('/', instanceUrl, "/services/data/v54.0/sobjects/Account");
-            var request = new HttpRequestMessage(HttpMethod.Post, postUrl);
-            request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", jwtToken);
-            request.Content = content;
-            var response = await client.SendAsync(request);
-            //response.EnsureSuccessStatusCode();
-            var message = response.Content.ReadAsStringAsync();
 
             // Get account from AA SQL database
+            var extractedData = _DataExtractor.Extract(accountId);
 
             // Post account to Salesforce
+            var sfAccount = await _AccountDetector.DetectAsync(extractedData.Account, instanceUrl, jwtToken);
+            if (sfAccount == null)
+                sfAccount = await _AccountCreator.CreateAsync(extractedData.Account, instanceUrl, jwtToken);
+            else
+                sfAccount = await _AccountUpdater.UpdateIfChangesAsync(sfAccount, extractedData.Account, instanceUrl, jwtToken);
 
             // Get each additional entity from AA SQL database
 
             // Post each additional entity to Salesforce
         }
+
+
     }
 }
