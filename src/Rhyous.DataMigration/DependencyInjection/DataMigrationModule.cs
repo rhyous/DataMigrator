@@ -20,7 +20,8 @@ namespace Rhyous.DataMigration.DependencyInjection
         {
             builder.RegisterType<ArgsWrapper>().As<IArgs>().SingleInstance();
             builder.RegisterType<FileWrapper>().As<IFileIO>().SingleInstance();
-            builder.RegisterType<ConsoleLogger>().As<ILogger>().SingleInstance();
+            builder.RegisterType<ConsoleLogger>().As<DataMigration.Interfaces.ILogger>().SingleInstance();
+            builder.RegisterType<ConsoleSFLogger>().As<Salesforce.Interfaces.ILogger>().SingleInstance();
 
             builder.RegisterType<CustomJsonPropertyAttributeResolver>().As<ICustomJsonPropertyAttributeResolver>().SingleInstance();
             builder.RegisterType<CustomJsonSerializerSettings>().As<JsonSerializerSettings>().SingleInstance();

@@ -2,8 +2,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using Newtonsoft.Json;
+using Rhyous.DataMigration.AdvisorsAssistant.Interfaces;
+using Rhyous.DataMigration.AdvisorsAssistant.Models;
 using Rhyous.DataMigration.DependencyInjection;
 using Rhyous.DataMigration.Interfaces;
+using Rhyous.DataMigration.Models;
 using Rhyous.DataMigration.Salesforce.Interfaces;
 using Rhyous.DataMigration.Serializers;
 using Rhyous.SimpleArgs;
@@ -62,10 +65,19 @@ namespace Rhyous.DataMigration.Tests.DependencyInjection
         }
 
         [TestMethod]
-        public void DataMigrationModuleTests_ILogger_Registered_Singleton()
+        public void DataMigrationModuleTests_DataMigration_Interfaces_ILogger_Registered_Singleton()
         {
-            var a = _Container.Resolve<ILogger>();
-            var b = _Container.Resolve<ILogger>();
+            var a = _Container.Resolve<DataMigration.Interfaces.ILogger>();
+            var b = _Container.Resolve<DataMigration.Interfaces.ILogger>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_Salesforce_Interfaces_ILogger_Registered_Singleton()
+        {
+            var a = _Container.Resolve<Salesforce.Interfaces.ILogger>();
+            var b = _Container.Resolve<Salesforce.Interfaces.ILogger>();
             Assert.IsNotNull(a);
             Assert.AreSame(a, b);
         }
@@ -100,6 +112,33 @@ namespace Rhyous.DataMigration.Tests.DependencyInjection
         }
 
         [TestMethod]
+        public void DataMigrationModuleTests_IAdvisorsAssistantContext_Registered_Transient()
+        {
+            var a = _Container.Resolve<IAdvisorsAssistantContext>();
+            var b = _Container.Resolve<IAdvisorsAssistantContext>();
+            Assert.IsNotNull(a);
+            Assert.AreNotSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_IAdvisorsAssistantContextFactory_Registered_Singleton()
+        {
+            var a = _Container.Resolve<IAdvisorsAssistantContextFactory>();
+            var b = _Container.Resolve<IAdvisorsAssistantContextFactory>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_IDataExtractor_ExtractedData_Registered_Singleton()
+        {
+            var a = _Container.Resolve<IDataExtractor<ExtractedData>>();
+            var b = _Container.Resolve<IDataExtractor<ExtractedData>>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
         public void DataMigrationModuleTests_IHttpClientFactory_Registered_Singleton()
         {
             var a = _Container.Resolve<IHttpClientFactory>();
@@ -122,6 +161,42 @@ namespace Rhyous.DataMigration.Tests.DependencyInjection
         {
             var a = _Container.Resolve<ISalesforceLogin>();
             var b = _Container.Resolve<ISalesforceLogin>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_ISalesforceRecordTypeProvider_Registered_Singleton()
+        {
+            var a = _Container.Resolve<ISalesforceRecordTypeProvider>();
+            var b = _Container.Resolve<ISalesforceRecordTypeProvider>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_IAccountCreator_Registered_Singleton()
+        {
+            var a = _Container.Resolve<IAccountCreator>();
+            var b = _Container.Resolve<IAccountCreator>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_IAccountDetector_Registered_Singleton()
+        {
+            var a = _Container.Resolve<IAccountDetector>();
+            var b = _Container.Resolve<IAccountDetector>();
+            Assert.IsNotNull(a);
+            Assert.AreSame(a, b);
+        }
+
+        [TestMethod]
+        public void DataMigrationModuleTests_IAccountUpdater_Registered_Singleton()
+        {
+            var a = _Container.Resolve<IAccountUpdater>();
+            var b = _Container.Resolve<IAccountUpdater>();
             Assert.IsNotNull(a);
             Assert.AreSame(a, b);
         }
